@@ -1,0 +1,87 @@
+#bigbox{
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: rgb(254, 254, 252);
+}
+body{
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, purple, green,yellow);
+}
+#text{
+    margin: 12px 25px 0px;
+}
+img{
+    height: 20px ;
+    width: 20px;
+    margin-left: 10px
+}
+b{
+    font-size: 15px;
+
+}
+#inputbox{
+    border: 1px solid black;
+    margin: 12px;
+    display: flex;
+    height: 45px;
+
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+#addbutton{ 
+    border-radius: 15px ;
+    border-color: transparent;
+    width: 95px;
+    background-color: rgb(9, 249, 9);
+    box-shadow: 2px 2px 5px rgb(9, 249, 9);
+}
+input{
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: transparent;
+    padding: 10px;
+    outline: 1px solid transparent;
+    width: 180px;
+}
+#lists{
+    list-style-type: none;    
+}
+ul li{
+    font-size: 20px;
+    margin: 5px;
+    user-select: none;
+
+}
+ul li::before{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-image: url('file:///C:/Users/bhuky/Downloads/circle.png');
+    background-size: cover;
+    background-position: center;
+    left: 12px ;
+    top: 12px;
+
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+
+}
+
+span{
+    position:relative;
+    top: 0px;
+    left: 100px;
+    width: 75px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+span:hover{
+    background-color: rgba(128, 128, 128, 0.289);
+}
